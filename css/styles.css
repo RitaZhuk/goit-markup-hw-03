@@ -1,0 +1,258 @@
+:root {
+    --main-text: #757575;
+    --text: #212121;
+    --accent: #2196F3;
+    --white: #ffffff;
+    --footer-mail: rgba(255, 255, 255, 0.6);
+    --background: #2F303A;
+    --background-team: #F5F4FA;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #757575;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+/* -------------SITE------------- */
+.logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--accent)
+}
+
+.logo-web {
+    color: var(--accent)
+}
+
+.logo-studio {
+    color: var(--text)
+}
+
+.site-nav .link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text)
+}
+
+.link:hover, .link:focus {
+    color: var(--accent)
+}
+
+.link.current {
+    color: var(--accent);
+}
+
+.site-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text)
+}
+
+.site-mail:hover, .site-mail:focus {
+    color: var(--accent)
+}
+
+.site-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text)
+}
+
+.site-tel:hover, .site-tel:focus {
+    color: var(--accent)
+}
+
+/* -----------------MAIN------------------- */
+
+.main-section {
+    background-color: var(--background)
+}
+
+.main-title-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white)
+}
+
+.mane-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white);
+    background-color: var(--accent);
+    cursor: pointer;
+    }
+
+    .main-btn:hover, .main-btn:focus {
+        color: var(--accent)
+    }
+
+    /* --------------PECULIAR-------------------- */
+
+.peculiar-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--text)
+}
+
+.peculiar-text {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--main-text)
+}
+
+/* ---------------ACTIVITY------------ */
+
+.activity-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text)
+}
+
+/* ----------------TEAM------------- */
+
+.team {
+    background-color: var(--background-team)
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text)
+}
+
+.team-item {
+    background-color: var(--white)
+}
+
+.team-second-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text)
+}
+
+.team-text {
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text)
+}
+
+/* -----------FOOTER----------- */
+
+.contacts {
+    background-color: var(--background)
+}
+
+.contacts-web {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent)
+}
+
+.contacts-studio {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--white)
+}
+
+.contacts-adress {
+    font-style: normal;
+}
+
+.contacts-link-adress {
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white)
+}
+
+.contacts-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-mail)
+}
+
+/* ----стили для portfolio.html------ */
+
+.btn-filtr {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+   text-align: center;
+    letter-spacing: 0.03em;
+    background-color: #F5F4FA;
+    color: var(--text);
+    cursor: pointer;
+    
+}
+/* --------main-portfolio */
+.btn-filtr:hover, .btn-filtr:focus {
+    background-color: #2196F3;
+    color: var(--white);
+}
+
+.portfolio-top {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text)
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.88;
+   letter-spacing: 0.03em;
+    color: var(--main-text)
+}
