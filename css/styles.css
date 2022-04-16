@@ -10,7 +10,7 @@
 
 body {
   font-family: Roboto, sans-serif;
-  color: #757575;
+  color: #FFFFFF;
 }
 
 p,
@@ -379,7 +379,7 @@ padding: 200px 0px 200px 0px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--white);
+  color: #FFFFFF;
 }
 
 .contacts-link-mail {
@@ -436,7 +436,6 @@ padding: 200px 0px 200px 0px;
     margin-right: 8px;
   }
 
-}
 .title-group {
   padding: 20px 24px;
   border-right-width: 1px solid #EEEEEE;
@@ -461,10 +460,7 @@ padding: 200px 0px 200px 0px;
   margin-bottom: 20px;
 }
 
-.contacts-web,
-.contacts-studio {
-  padding-top: 60px;
-}
+
 
 .portfolio-list {
   display: flex;
