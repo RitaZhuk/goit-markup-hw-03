@@ -40,6 +40,7 @@ button {
 
 .link {
   text-decoration: none;
+  display: block;
 }
 
 .list {
@@ -59,8 +60,8 @@ img {
 /* -------------SITE------------- */
 
 .site {
-  padding-top: 24px;
-  padding-bottom: 25px;
+ padding-bottom: 25px;
+ border-bottom: 1px #ECECEC;
 }
 
 
@@ -71,6 +72,7 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent);
+  display: block;
 }
 
 .logo-web {
@@ -86,6 +88,7 @@ img {
 .site .conteiner {
   display: flex;
   align-items: center;
+  box-sizing: border-box;
 }
 
 
@@ -217,6 +220,10 @@ padding: 200px 0px 200px 0px;
   display: flex;
 }
 
+.peculiar-item {
+  width: 270px;
+}
+
 .peculiar-item:not(last-child) {
   margin-right: 30px;
 }
@@ -281,6 +288,10 @@ padding: 200px 0px 200px 0px;
   flex-wrap: wrap;
 }
 
+.team-item {
+  width: 270px;
+}
+
 .team-item:not(last-child) {
   flex-basis: calc(100%/3-30px);
   margin-left: 30px;
@@ -340,6 +351,14 @@ padding: 200px 0px 200px 0px;
   color: var(--white);
 }
 
+.contacts .contact-item+.contact-item{
+  margin-top: 9px;
+}
+
+.contacts-list:first-child {
+  margin-top: 20px;
+}
+
 .contacts-adress {
   font-style: normal;
 }
@@ -382,8 +401,11 @@ padding: 200px 0px 200px 0px;
 }
 
 .filtr {
-  margin: 94px 280px 34px 280px;
- display: flex;
+  margin-bottom: 34px;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
   width: 611px;
   height: 54px;
  }
@@ -400,6 +422,9 @@ padding: 200px 0px 200px 0px;
 
 .portfolio-image {
   margin-bottom: 20px;
+}
+.title-group {
+  padding: 20px 24px;
 }
 
 .portfolio-top {
@@ -436,6 +461,7 @@ padding: 200px 0px 200px 0px;
   margin-left: 30px;
   margin-bottom: 30px;
   width: 370px;
+  border-bottom: 1px #EEEEEE;
 }
 
 .portfolio-item:nth-child(3n) {
