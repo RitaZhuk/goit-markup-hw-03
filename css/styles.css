@@ -224,7 +224,7 @@ padding: 200px 0px 200px 0px;
   width: 270px;
 }
 
-.peculiar-item:not(last-child) {
+.peculiar-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -247,7 +247,9 @@ padding: 200px 0px 200px 0px;
 
 /* ---------------ACTIVITY------------ */
 
-
+.activity {
+  padding-bottom: 94px;
+}
 
 .activity-title {
   font-weight: 700;
@@ -261,8 +263,7 @@ padding: 200px 0px 200px 0px;
 
 .activity-list {
   display: flex;
-  padding-bottom: 94px;
-}
+  }
 
 .activity-item:not(:last-child) {
   margin-right: 30px;
@@ -308,8 +309,8 @@ padding: 200px 0px 200px 0px;
 }
 
 .team-group {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-second-title {
